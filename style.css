@@ -1,0 +1,61 @@
+body
+{
+  color: white;
+  background: #110024;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed rgb(255, 255, 255);
+  width: 350px;
+  height: 300px; 
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 12px rgb(70, 0, 110);
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: rgb(255, 255, 255);
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.heading{
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: cadetblue;
+  color: #110024;
+  font-weight: bolder;
+  padding: 10px;
+  width: fit-content;
+}
+label{
+  font-size: 14px;
+  color: #110024;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: cadetblue;
+}
+#predict_gesture{
+  background-color: rgb(70, 0, 110);
+  color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px;
+  font-weight: bolder;
+}
+#capture_image{
+  background-color: rgb(255, 255, 255);
+  color: rgb(70, 0, 110);
+  border-radius: 10px;
+  border: 1px solid rgb(70, 0, 110);
+  padding: 10px;
+  font-weight: bolder;
+}
